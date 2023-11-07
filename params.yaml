@@ -1,7 +1,7 @@
 base:
   project: wunequality-project
   random_state: 42
-  target_col: TARGET
+  target_col: quality
 
 
 data_source:
@@ -24,3 +24,7 @@ estimstors:
 
 
 model_dir: saved_model
+
+reports:
+  params: report/params.json
+  scores: report/scores.json
